@@ -131,9 +131,6 @@ function animate() {
     requestAnimationFrame(animate);
 }
 
-// Start animation
-animate();
-
 // Handle window resize
 function handleResize() {
     const rect = container.getBoundingClientRect();
@@ -142,10 +139,7 @@ function handleResize() {
     renderer.setSize(rect.width, rect.height);
 }
 
+// Add event listeners and start
 window.addEventListener('resize', handleResize);
 handleResize();
-window.addEventListener('resize', handleResize);
-handleResize();
-
-// Start animation
 animate();
