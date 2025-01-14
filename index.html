@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control BIA - Visualization & Analytics</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#video" class="nav-link">Our Story</a>
+        <a href="#dashboards" class="nav-link">Dashboards</a>
+    </nav>
+
+    <div id="home" class="content-container section">
+        <div class="visualization-container" id="visualization-container">
+        </div>
+        <div class="text-content">
+            <h1>Visualization, Automation & Analytics</h1>
+            <p>We empower companies to make data-driven decisions through expert business intelligence and automation solutions.</p>
+        </div>
+    </div>
+
+    <div id="about" class="about-section section">
+        <!-- About section content -->
+    </div>
+
+    <div id="services" class="services-section section">
+        <!-- Services section content -->
+    </div>
+
+    <div id="video" class="video-section section">
+        <div class="video-container">
+            <div class="video-content">
+                <h2 class="video-title">Our Story</h2>
+                <p class="video-description">Discover how we're transforming businesses through the power of data analytics and intelligent automation.</p>
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/rsTsqS4Kz6g"
+                        title="Corporate Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <a href="#contact" class="video-cta">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="dashboards" class="dashboards-section section">
+        <div class="dashboards-container">
+            <h2>Interactive Dashboards</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-item">
+                    <h3 class="dashboard-title">TMDB Analytics</h3>
+                    <div class="dashboard-frame-wrapper">
+                        <iframe 
+                            class="dashboard-frame"
+                            title="TMDB"
+                            src="https://app.powerbi.com/view?r=eyJrIjoiYjYwNDZjNGYtNzI0Yy00Zjc4LWE5ZmItOTAwZTYyMTY3N2MyIiwidCI6IjU4MGQzNWExLWE2Y2EtNDcwYS1hNTY3LTc0OGI0OTI0MzAyOCIsImMiOjJ9"
+                            frameborder="0"
+                            allowFullScreen="true">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Other dashboard items -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/visualization.js"></script>
+</body>
+</html>
