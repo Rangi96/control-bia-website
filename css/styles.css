@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     min-height: 100vh;
-    padding-top: 60px; /* Add space for fixed nav */
+    padding-top: 60px;
 }
 
 .visualization-container {
